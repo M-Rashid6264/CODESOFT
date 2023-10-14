@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>M Rashid</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c4254e24a8.js"crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" alt="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#About">About</a></li>
+                    <li><a href="#Services">Service</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()">×</i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"> »</i>
+
+            </nav>
+            <div class="header-text">
+                <p id="typewriter"><span style="color: brown;">w</span>ellCome</p>
+                <p>UI/UX Designer</p>
+                <h1>Hi, I'm <span>Rashid</span><br> From Pakistan</h1>
+            </div>
+        </div>
+    </div>
+<!----------------About---------- -->
+    <div id="About">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user.png" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>"Step into the world of captivating digital experiences. As a web designer, I blend creativity and functionality to craft visually stunning and user-centric websites. With an eye for aesthetics and a passion for seamless user journeys, I bring concepts to life, transforming ideas into pixel-perfect designs. My expertise in responsive design, intuitive navigation, and attention to detail ensures that every website I create not only looks exceptional but also provides an engaging and intuitive user experience. Let's collaborate and create a digital masterpiece that leaves a lasting impression."</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">skills</p>
+                        <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('Education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br> Designing Web/App Interfaces</li>
+                            <li><span>Web Development</span><br> Designing Web App Development</li>
+                            <li><span>App Development</span><br> Designing Building Android/IOS Apps</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Experience">
+                        <ul>
+                            <li><span> 2023-current </span><br> Designing Web/App Interfaces</li>
+                            <li><span>2021 - 2023 </span><br> Front-end & Back-end websites Seo </li>
+                            <li><span>2017 - 2019 </span><br> Data handling</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Education">
+                        <ul>
+                            <li><span>2021 - 2024</span><br> Software Engineering</li>
+                            <li><span>2020 - 2021</span><br> Search Engin Optomization</li>
+                            <li><span>2018 - 2020</span><br> Pre-Engineering</li>
+                            <li><span>2015 - 2017</span><br> Matriculation </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ----------------Services---------- -->
+    <div id="Services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="Services-lists">
+                <div>
+                    <i class="fas fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p> content about web design</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fas fa-crop-alt"></i>
+                    <h2>UI/UX Design</h2>
+                    <p> content about web design</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa fa-line-chart" aria-hidden="true"></i>
+                    <h2>Web SEO</h2>
+                    <p> content about web design</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fas fa-app-store"></i>
+                    <h2>App Development</h2>
+                    <p> content about web design</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa fa-exclamation" aria-hidden="true"></i>
+                    <h2>Error and Bug fixing</h2>
+                    <p> content about web design</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa fa-language" aria-hidden="true"></i>
+                    <h2>Code Language Conversion</h2>
+                    <p> content about web design</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- ----------------Portfolio---------- -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-1.png" alt="">
+                    <div class="layer"><h3>Social Media App</h3>
+                    <p>The app connect you to the talented people around the world. Download it from playstore.</p>
+                    <a href="#"><i class="fas fa-external-link-alt" ></i></a>
+                </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-2.png" alt="">
+                    <div class="layer"><h3>Music App</h3>
+                        <p>The app connect you to the talented people around the world. Download it from playstore.</p>
+                        <a href="#"><i class="fas fa-external-link-alt" ></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-3.png" alt="">
+                    <div class="layer"><h3>Online Shopping</h3>
+                        <p>The app connect you to the talented people around the world. Download it from playstore.</p>
+                        <a href="#"><i class="fas fa-external-link-alt" ></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+    <!-- ----------------Contact---------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact me</h1>
+                    <p><i class="fa fa-share-square" aria-hidden="true"></i> Contact@example</p>
+                    <p><i class="fa fa-phone-square" aria-hidden="true"></i> 12345676890</p>
+                    <div class="social-icon">
+                        <a href="Facebook"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
+                        <a href="WhatsApp"><i class="fa fa-whatsapp" aria-hidden="true"></i></a>
+                        <a href="Email"><i class="fa fa-envelope-o" aria-hidden="true"></i></a>
+                        <a href="Instagram"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                        <a href="LinkedIn"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+                    </div>
+                        <a href="images/CV.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text"name="Name" placeholder="Yourname" required>
+                        <input type="email"name="Email"placeholder="YourEmail" required>
+                        <textarea name="Message"  rows="6" placeholder="YourMessage"></textarea>
+                        <button type="Submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>💖Thanks for Visit </p>
+        </div>
+    </div>
+      <script src="script.js"></script>
+</body>
+</html>
